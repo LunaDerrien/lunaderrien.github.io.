@@ -1,0 +1,229 @@
+
+@font-face {
+  font-family: "Happy-Times-at-the-IKOB-master";
+src: url("happy-times-NG_regular_master_web.ttf") format('truetype'), url("happy-times-NG_regular_master_web.woff") format('woff');
+}
+
+body {
+  background-color : #F1EEE4;
+  font-family: "Happy-Times-at-the-IKOB-master", serif;
+  font-size: 14px;
+  font-weight: normal;
+  color : black;
+  margin : 0 auto;
+}
+
+h3 {
+ text-align: left;
+ margin-left: 20px;
+ position: fixed;
+ color:black;
+}
+
+p {
+  font-size: 0.85em;
+  font-weight: 400;
+  font-style: normal;
+  opacity: 0.9;
+  text-rendering: optimizeLegibility;
+  text-align: center;
+}
+
+
+.nav {
+  font-size : 26px;
+  text-align: center;
+  padding: 10px;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+  padding-top: 10px;
+  margin-top: 30px;
+  margin: 0;
+}
+
+.box {
+display: inline-block;
+width : 30%;
+}
+
+.menuprojetsbase {
+  margin-left: 20px;
+  margin-top: 80px;
+  position: fixed;
+  color : black;
+  width :200px;
+  height : 390px;
+  padding-left:30px;
+  padding-right :30px;
+}
+
+
+span.categories {
+  font-weight: bolder;
+}
+
+span.years {
+  font-size : 12px;
+  display: inline-block;
+}
+
+li.box:hover {
+  opacity: 0.3;
+}
+
+
+/* unvisited link */
+a:link {
+    text-decoration:none;
+    color : black;
+}
+
+/* visited link */
+a:visited {
+    text-decoration:none;
+    color : black;
+    opacity: 0.5
+}
+
+/* mouse over link */
+a:hover {
+    text-decoration:none;
+}
+
+/* selected link */
+a:active {
+    text-decoration:none;
+    color : black;
+}
+
+img {
+  width: 300px;
+  height: 400px;
+  max-width: auto;
+  height : auto;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: bottom;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+img.accueil {
+margin-left: 8px;
+}
+
+img.contenu {
+  width: 300px;
+  height: 400px;
+  max-width: 100%;
+  height : auto;
+  vertical-align: bottom;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+
+
+img.accueil:hover {
+  opacity: 0.8;
+}
+
+h5.categories {
+  margin-left:20px;
+  margin-top: 50px;
+}
+
+p.proj {
+  margin-left: 20px;
+  margin-top: auto;
+  font-size:13px;
+}
+
+p.proj:hover {
+  opacity : 0.3;
+}
+
+img.resize2 {
+  width : 49.5%;
+  height : auto;
+vertical-align: bottom;
+}
+
+
+.deuximages {
+width : 50%;
+margin-left: 360px;
+
+}
+
+
+img.resize3 {
+  width : 32%;
+  height : auto;
+vertical-align: bottom;
+}
+
+
+.troisimages {
+  width : 65%;
+  text-align: center;
+  margin-left: 253px;
+}
+
+video {
+  width: 1280px;
+  height: 720px;
+  max-width: 60%;
+  height : auto;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  vertical-align: bottom;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+
+
+.contact {
+  width :40%;
+  margin-left: 430px;
+  margin-bottom: -200px;
+  margin-top: -150px;
+}
+
+
+
+
+ p.biography {
+   text-align: center;
+   font-size: 16px;
+
+ }
+
+ div.cv {
+  text-align: center;
+  margin-bottom: 100px;
+ }
+
+.download:hover {
+   text-decoration: underline;
+ }
